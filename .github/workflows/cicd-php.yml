@@ -30,4 +30,4 @@ jobs:
           docker build -t ${{ secrets.DOCKER_USER }}/viuejemplo:latest .
       - name: Push
         run: 
-          docker push ${{ secrets.DOCKER_USER }}/viuejemplo:latest    
+          docker push ${{ secrets.DOCKER_USER }}/viuejemplo:latest
